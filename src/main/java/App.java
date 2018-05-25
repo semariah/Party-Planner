@@ -35,6 +35,31 @@ public class App {
                             System.out.println("Sorry but, Input not recognized");
                         }
                     }
+                    System.out.println("Please choose a beverage courses: full-bar or soft drinks");
+                    boolean beverageCheck = true;
+                    while (beverageCheck){
+                        String inputbeverage = bufferedReader.readLine();
+                        food = inputbeverage;
+                        if (food.equals("full-bar") || food.equals("soft drinks")) {
+                            beverageCheck = false;
+
+                        } else {
+                            System.out.println("Sorry but, Input not recognized");
+                        }
+                    }
+                    System.out.println("Please choose an entertainment type: live-band or Dj");
+                    boolean Check = true;
+                    while (beverageCheck){
+                        String inputbeverage = bufferedReader.readLine();
+                        food = inputbeverage;
+                        if (food.equals("full-bar") || food.equals("soft drinks")) {
+                            beverageCheck = false;
+
+                        } else {
+                            System.out.println("Sorry but, Input not recognized");
+                        }
+                    }
+
 
 
 
