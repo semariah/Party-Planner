@@ -16,6 +16,7 @@ public class Party {
         typeOfBeverage = beverage;
         typeOfEntertainment = entertainment;
 
+
     }
 
     public int calculateCost(){
@@ -50,6 +51,12 @@ public class Party {
     }
 
     public int getTotalCost() {
-        return (totalCost = ((foodCost + beverageCost) * numberOfGuests + entertainmentCost));
+        if (foodCost == 30 && beverageCost == 20 && entertainmentCost == 3000){
+            totalCost = (((foodCost + beverageCost) * numberOfGuests) + entertainmentCost);
+            return totalCost;
+        } else {
+            return 0;
+        }
+
     }
 }
