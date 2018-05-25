@@ -10,7 +10,7 @@ public class Party {
         numberOfGuests = guests;
         typeOfFood = food;
         typeOfBeverage = beverage;
-        typeOfEntertainment = null;
+        typeOfEntertainment = entertainment;
     }
 
 }
