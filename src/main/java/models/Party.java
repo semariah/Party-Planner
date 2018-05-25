@@ -21,6 +21,8 @@ public class Party {
 
     public Party() {
 
+
+
     }
 
     public int calculateCost(){
@@ -52,6 +54,9 @@ public class Party {
         } else {
             return entertainmentCost = 0;
         }
+    }
+
+    public void numberOfGuests(int i) {
     }
 
 //    public void setTotalCost(int totalCost) {
