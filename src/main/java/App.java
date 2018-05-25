@@ -23,10 +23,19 @@ public class App {
                     String numberOfguests  = bufferedReader.readLine();
                     guests = Integer.parseInt(numberOfguests);
                     System.out.println("Please choose a food courses: full-course or light snacks");
-                    String inputFood = bufferedReader.readLine();
-                    if () {
 
+                    boolean foodCheck = true;
+                    while (foodCheck){
+                        String inputFood = bufferedReader.readLine();
+                        food = inputFood;
+                        if (food.equals("full-course") || food.equals("light snacks")) {
+                            foodCheck = false;
+
+                        } else {
+                            System.out.println("Sorry but, Input not recognized");
+                        }
                     }
+
 
 
                 } else if(userEntry.equals("exit")){
