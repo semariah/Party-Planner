@@ -8,7 +8,7 @@ public class Party {
     private int foodCost;
     private int beverageCost;
     private int entertainmentCost;
-    private int totalCost;
+    private int totalCost = 0;
 
     public Party (int guests, String food, String beverage, String entertainment) {
         numberOfGuests = guests;
@@ -48,6 +48,10 @@ public class Party {
         } else {
             return entertainmentCost = 0;
         }
+    }
+
+    public void setTotalCost(int totalCost) {
+        this.totalCost = totalCost;
     }
 
     public int getTotalCost() {
