@@ -23,4 +23,10 @@ public class PartyTest {
         assertEquals(20, testParty.calculateBeverageCost());
     }
 
+    @Test
+    public void newParty_calculatesEntertainmentCost_3000() {
+        Party testParty = new Party(100, "full-course", "full-bar", "live-band");
+        assertEquals(20, testParty.calculateBandCost());
+    }
+
 }

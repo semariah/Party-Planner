@@ -38,4 +38,14 @@ public class Party {
         }
     }
 
+    public int calculateBandCost(){
+        if (typeOfEntertainment.equals("live-band")) {
+            return entertainmentCost = 3000;
+        } else if (typeOfEntertainment.equals("Dj")){
+            return entertainmentCost = 10;
+        } else {
+            return entertainmentCost = 0;
+        }
+    }
+
 }
