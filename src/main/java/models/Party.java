@@ -19,9 +19,22 @@ public class Party {
 
     public int calculateCost(){
         if (typeOfFood.equals("full-course")) {
-           return foodCost = 6000;
+            return foodCost = 30;
+        } else if (typeOfFood.equals("light snacks")){
+            return foodCost = 20;
         } else {
-           return foodCost = 45;
+            return foodCost = 5;
+        }
+
+    }
+
+    public int calculateBeverageCost(){
+        if (typeOfBeverage.equals("full-bar")) {
+            return beverageCost = 1500;
+        } else if (typeOfBeverage.equals("soft drinks")){
+            return beverageCost = 10;
+        } else {
+            return beverageCost = 5;
         }
     }
 
