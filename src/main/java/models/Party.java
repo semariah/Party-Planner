@@ -15,6 +15,7 @@ public class Party {
         typeOfFood = food;
         typeOfBeverage = beverage;
         typeOfEntertainment = entertainment;
+
     }
 
     public int calculateCost(){
@@ -42,10 +43,13 @@ public class Party {
         if (typeOfEntertainment.equals("live-band")) {
             return entertainmentCost = 3000;
         } else if (typeOfEntertainment.equals("Dj")){
-            return entertainmentCost = 10;
+            return entertainmentCost = 2000;
         } else {
             return entertainmentCost = 0;
         }
     }
 
+    public int getTotalCost() {
+        return (totalCost = ((foodCost + beverageCost) * numberOfGuests + entertainmentCost));
+    }
 }
