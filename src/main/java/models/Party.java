@@ -30,7 +30,7 @@ public class Party {
 
     public int calculateBeverageCost(){
         if (typeOfBeverage.equals("full-bar")) {
-            return beverageCost = 1500;
+            return beverageCost = 20;
         } else if (typeOfBeverage.equals("soft drinks")){
             return beverageCost = 10;
         } else {
