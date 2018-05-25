@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cf43be7-2962-4e38-9d85-d9fc3c5336bc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/models/Party.java" afterPath="$PROJECT_DIR$/src/main/java/models/Party.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/models/PartyTest.java" afterPath="$PROJECT_DIR$/src/test/java/models/PartyTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -26,8 +24,8 @@
       <file leaf-file-name="Party.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/models/Party.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+            <state relative-caret-position="315">
+              <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -282,8 +280,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/java/models/Party.java" />
         <option value="$PROJECT_DIR$/src/test/java/models/PartyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Party.java" />
       </list>
     </option>
   </component>
@@ -522,9 +520,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PartyTest - 2018.05.25 at 11h 40m 16s.xml">
-      <configuration name="PartyTest" configurationId="AndroidJUnit" />
-    </history-entry>
     <history-entry file="PartyTest - 2018.05.25 at 11h 50m 15s.xml">
       <configuration name="PartyTest" configurationId="AndroidJUnit" />
     </history-entry>
@@ -550,6 +545,9 @@
       <configuration name="PartyTest" configurationId="AndroidJUnit" />
     </history-entry>
     <history-entry file="PartyTest - 2018.05.25 at 12h 19m 40s.xml">
+      <configuration name="PartyTest" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="PartyTest - 2018.05.25 at 12h 20m 10s.xml">
       <configuration name="PartyTest" configurationId="AndroidJUnit" />
     </history-entry>
   </component>
@@ -613,8 +611,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/Party.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        <state relative-caret-position="315">
+          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
           <folding />
         </state>
       </provider>
