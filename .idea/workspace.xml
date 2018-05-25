@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cf43be7-2962-4e38-9d85-d9fc3c5336bc" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" afterPath="$PROJECT_DIR$/src/main/java/App.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/models/Party.java" afterPath="$PROJECT_DIR$/src/main/java/models/Party.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/models/PartyTest.java" afterPath="$PROJECT_DIR$/src/test/java/models/PartyTest.java" />
     </list>
@@ -22,27 +24,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Party.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/models/Party.java">
+      <file leaf-file-name="PartyTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/models/PartyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-103">
-              <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+            <state relative-caret-position="487">
+              <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
               <folding>
-                <element signature="e#1452#1453#0" expanded="true" />
-                <element signature="e#1494#1495#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PartyTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/models/PartyTest.java">
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+            <state relative-caret-position="570">
+              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Party.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/models/Party.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -52,8 +63,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -286,12 +297,18 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/test/java/models/PartyTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Party.java" />
+        <option value="$PROJECT_DIR$/src/main/java/App.java" />
       </list>
     </option>
   </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="PartyTest.newParty_calculatesTotalCostOfParty_8000" />
+    </enabled-run-configurations>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="801" />
-    <option name="y" value="189" />
+    <option name="x" value="961" />
+    <option name="y" value="188" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -554,27 +571,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PartyTest_newParty_calculatesTotalCostOfParty_8000 - 2018.05.25 at 13h 49m 05s.xml">
-      <configuration name="PartyTest.newParty_calculatesTotalCostOfParty_8000" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PartyTest_newParty_calculatesTotalCostOfParty_8000 - 2018.05.25 at 13h 51m 28s.xml">
-      <configuration name="PartyTest.newParty_calculatesTotalCostOfParty_8000" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PartyTest_newParty_calculatesTotalCostOfParty_8000 - 2018.05.25 at 13h 58m 02s.xml">
-      <configuration name="PartyTest.newParty_calculatesTotalCostOfParty_8000" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PartyTest_newParty_calculatesTotalCostOfParty_8000 - 2018.05.25 at 13h 59m 08s.xml">
-      <configuration name="PartyTest.newParty_calculatesTotalCostOfParty_8000" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PartyTest_newParty_calculatesTotalCostOfParty_8000 - 2018.05.25 at 14h 00m 07s.xml">
-      <configuration name="PartyTest.newParty_calculatesTotalCostOfParty_8000" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PartyTest_newParty_calculatesTotalCostOfParty_8000 - 2018.05.25 at 14h 01m 04s.xml">
-      <configuration name="PartyTest.newParty_calculatesTotalCostOfParty_8000" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PartyTest_newParty_calculatesTotalCostOfParty_8000 - 2018.05.25 at 14h 03m 28s.xml">
-      <configuration name="PartyTest.newParty_calculatesTotalCostOfParty_8000" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PartyTest_newParty_calculatesTotalCostOfParty_8000 - 2018.05.25 at 14h 05m 03s.xml">
       <configuration name="PartyTest.newParty_calculatesTotalCostOfParty_8000" configurationId="JUnit" />
     </history-entry>
@@ -584,26 +580,57 @@
     <history-entry file="PartyTest_newParty_calculatesTotalCostOfParty_8000 - 2018.05.25 at 14h 13m 52s.xml">
       <configuration name="PartyTest.newParty_calculatesTotalCostOfParty_8000" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PartyTest_newParty_calculatesTotalCostOfParty_8000 - 2018.05.25 at 14h 46m 13s.xml">
+      <configuration name="PartyTest.newParty_calculatesTotalCostOfParty_8000" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PartyTest_newParty_calculatesTotalCostOfParty_8000 - 2018.05.25 at 14h 47m 48s.xml">
+      <configuration name="PartyTest.newParty_calculatesTotalCostOfParty_8000" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PartyTest_newParty_calculatesTotalCostOfParty_8000 - 2018.05.25 at 14h 48m 10s.xml">
+      <configuration name="PartyTest.newParty_calculatesTotalCostOfParty_8000" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PartyTest_newParty_calculatesTotalCostOfParty_8000 - 2018.05.25 at 14h 49m 17s.xml">
+      <configuration name="PartyTest.newParty_calculatesTotalCostOfParty_8000" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PartyTest_newParty_calculatesTotalCostOfParty_8000 - 2018.05.25 at 14h 50m 07s.xml">
+      <configuration name="PartyTest.newParty_calculatesTotalCostOfParty_8000" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PartyTest_newParty_calculatesTotalCostOfParty_8000 - 2018.05.25 at 14h 50m 27s.xml">
+      <configuration name="PartyTest.newParty_calculatesTotalCostOfParty_8000" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PartyTest_newParty_calculatesTotalCostOfParty_8000 - 2018.05.25 at 14h 50m 33s.xml">
+      <configuration name="PartyTest.newParty_calculatesTotalCostOfParty_8000" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="801" y="189" width="1400" height="1000" extended-state="0" />
+    <frame x="961" y="188" width="1400" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.49410897" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.4970545" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29956895" sideWeight="0.105" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33812153" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281768" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.49410897" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29956895" sideWeight="0.895" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281768" sideWeight="0.48821798" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25773194" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32112068" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.320442" sideWeight="0.49410897" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -616,7 +643,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -645,19 +671,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/Party.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-103">
-          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding>
-            <element signature="e#1452#1453#0" expanded="true" />
-            <element signature="e#1494#1495#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/models/PartyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="487">
           <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

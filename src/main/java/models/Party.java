@@ -8,7 +8,7 @@ public class Party {
     private int foodCost;
     private int beverageCost;
     private int entertainmentCost;
-    private int totalCost = 0;
+    private int totalCost;
 
     public Party (int guests, String food, String beverage, String entertainment) {
         numberOfGuests = guests;
@@ -50,17 +50,17 @@ public class Party {
         }
     }
 
-    public void setTotalCost(int totalCost) {
-        this.totalCost = totalCost;
-    }
-
-    public int getTotalCost() {
-        if (foodCost == 30 && beverageCost == 20 && entertainmentCost == 3000){
-            totalCost = (((foodCost + beverageCost) * numberOfGuests) + entertainmentCost);
-            return totalCost;
-        } else {
-            return 0;
-        }
-
-    }
+//    public void setTotalCost(int totalCost) {
+//        this.totalCost = totalCost;
+//    }
+//
+//    public int getTotalCost() {
+//        if (foodCost == 30 && beverageCost == 20 && entertainmentCost == 3000){
+//            totalCost = (((foodCost + beverageCost) * numberOfGuests) + entertainmentCost);
+//            return totalCost;
+//        } else {
+//            return 0;
+//        }
+//
+//    }
 }

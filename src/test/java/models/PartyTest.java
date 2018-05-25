@@ -29,11 +29,11 @@ public class PartyTest {
         assertEquals(3000, testParty.calculateBandCost());
     }
 
-    @Test
-    public void newParty_calculatesTotalCostOfParty_8000() {
-        Party testParty = new Party(100, "full-course", "full-bar", "live-band");
-        testParty.setTotalCost (8000);
-        assertEquals(8000, testParty.getTotalCost());
-    }
+//    @Test
+//    public void newParty_calculatesTotalCostOfParty_8000() {
+//        Party testParty = new Party(100, "full-course", "full-bar", "live-band");
+//        testParty.setTotalCost (8000);
+//        assertEquals(8000, testParty.getTotalCost());
+//    }
 
 }
