@@ -19,6 +19,10 @@ public class Party {
 
     }
 
+    public Party() {
+
+    }
+
     public int calculateCost(){
         if (typeOfFood.equals("full-course")) {
             return foodCost = 30;
