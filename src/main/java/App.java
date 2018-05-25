@@ -39,8 +39,8 @@ public class App {
                     boolean beverageCheck = true;
                     while (beverageCheck){
                         String inputbeverage = bufferedReader.readLine();
-                        food = inputbeverage;
-                        if (food.equals("full-bar") || food.equals("soft drinks")) {
+                        beverages = inputbeverage;
+                        if (beverages.equals("full-bar") || food.equals("soft drinks")) {
                             beverageCheck = false;
 
                         } else {
@@ -48,12 +48,12 @@ public class App {
                         }
                     }
                     System.out.println("Please choose an entertainment type: live-band or Dj");
-                    boolean Check = true;
-                    while (beverageCheck){
-                        String inputbeverage = bufferedReader.readLine();
-                        food = inputbeverage;
-                        if (food.equals("full-bar") || food.equals("soft drinks")) {
-                            beverageCheck = false;
+                    boolean entertainmentCheck = true;
+                    while (entertainmentCheck){
+                        String inputentertainment = bufferedReader.readLine();
+                        entertainment = inputentertainment;
+                        if (entertainment.equals("live-band") || food.equals("Dj")) {
+                            entertainmentCheck = false;
 
                         } else {
                             System.out.println("Sorry but, Input not recognized");
