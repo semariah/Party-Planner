@@ -15,61 +15,69 @@ public class Party {
         typeOfFood = food;
         typeOfBeverage = beverage;
         typeOfEntertainment = entertainment;
-
-
     }
 
     public Party() {
 
-
-
     }
 
-    public int calculateCost(){
+    public void calculateCost(){
         if (typeOfFood.equals("full-course")) {
-            return foodCost = 30;
+            this.foodCost = 30;
         } else if (typeOfFood.equals("light snacks")){
-            return foodCost = 20;
+             this.foodCost = 20;
         } else {
-            return foodCost = 5;
+            this.foodCost = 5;
         }
 
     }
 
-    public int calculateBeverageCost(){
+    public void calculateBeverageCost(){
         if (typeOfBeverage.equals("full-bar")) {
-            return beverageCost = 20;
+            this.beverageCost = 20;
         } else if (typeOfBeverage.equals("soft drinks")){
-            return beverageCost = 10;
+            this.beverageCost = 10;
         } else {
-            return beverageCost = 5;
+            this.beverageCost = 5;
         }
     }
 
-    public int calculateBandCost(){
+    public void calculateBandCost(){
         if (typeOfEntertainment.equals("live-band")) {
-            return entertainmentCost = 3000;
+             this.entertainmentCost = 3000;
         } else if (typeOfEntertainment.equals("Dj")){
-            return entertainmentCost = 2000;
+             this.entertainmentCost = 2000;
         } else {
-            return entertainmentCost = 0;
+             this.entertainmentCost = 0;
         }
     }
 
     public void numberOfGuests(int i) {
     }
 
-//    public void setTotalCost(int totalCost) {
-//        this.totalCost = totalCost;
-//    }
-//
-//    public int getTotalCost() {
-//        if (foodCost == 30 && beverageCost == 20 && entertainmentCost == 3000){
-//            totalCost = (((foodCost + beverageCost) * numberOfGuests) + entertainmentCost);
-//            return totalCost;
-//        } else {
-//            return 0;
-//        }
-//
-//    }
+    public void setTotalCost(int totalCost) {
+        this.totalCost = totalCost;
+    }
+
+    public int getTotalCost() {
+        if (foodCost == 30 && beverageCost == 20 && entertainmentCost == 3000){
+            totalCost = (((foodCost + beverageCost) * numberOfGuests) + entertainmentCost);
+            return totalCost;
+        } else {
+            return 0;
+        }
+
+    }
+
+    public int getFoodCost() {
+        return foodCost;
+    }
+
+    public int getBeverageCost() {
+        return beverageCost;
+    }
+
+    public int getEntertainmentCost() {
+        return entertainmentCost;
+    }
 }
