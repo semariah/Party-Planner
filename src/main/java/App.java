@@ -10,8 +10,6 @@ public class App {
         String food = "";
         String beverages = "";
         String entertainment = "";
-        String stops = "yes";
-        int totalCost = 0;
         boolean programRunning = true;
         while (programRunning) {
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
