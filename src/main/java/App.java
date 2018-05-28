@@ -10,6 +10,8 @@ public class App {
         String food = "";
         String beverages = "";
         String entertainment = "";
+        String stops = "yes";
+        int totalCost = 0;
         boolean programRunning = true;
         while (programRunning) {
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
@@ -18,18 +20,22 @@ public class App {
             try {
                 System.out.println("Please make a selection: book an event or exit ");
                 String userEntry = bufferedReader.readLine();
-                if (userEntry.equals("book an event")) {
+                if (userEntry.toLowerCase().equals("book an event")) {
                     System.out.println("How many people will be attending the event?");
                     String numberOfguests  = bufferedReader.readLine();
                     guests = Integer.parseInt(numberOfguests);
-                    System.out.println("Please choose a food courses: full-course or light snacks");
+                    newParty.setNumberOfGuests(guests);
+                    System.out.println("Number of guests: " + newParty.getNumberOfGuests());
+                    System.out.println("Please choose a food courses: full course or light snacks");
 
                     boolean foodCheck = true;
                     while (foodCheck){
                         String inputFood = bufferedReader.readLine();
                         food = inputFood;
-                        if (food.equals("full-course") || food.equals("light snacks")) {
+                        if (food.toLowerCase().equals("full course") || food.toLowerCase().equals("light snacks")) {
+                            newParty.setTypeOfFood(food);
                             foodCheck = false;
+                            System.out.println("Food cost: " + newParty.getFoodCost());
 
                         } else {
                             System.out.println("Sorry but, Input not recognized");
@@ -38,30 +44,43 @@ public class App {
                     System.out.println("Please choose a beverage courses: full-bar or soft drinks");
                     boolean beverageCheck = true;
                     while (beverageCheck){
-                        String inputbeverage = bufferedReader.readLine();
-                        beverages = inputbeverage;
-                        if (beverages.equals("full-bar") || food.equals("soft drinks")) {
+                        String inputBeverage = bufferedReader.readLine();
+                        beverages = inputBeverage;
+                        if (beverages.toLowerCase().equals("full bar") || beverages.toLowerCase().equals("soft drinks")) {
+                            newParty.setTypeOfBeverage(beverages);
                             beverageCheck = false;
+                            System.out.println("Beverage cost: " + newParty.getBeverageCost());
 
                         } else {
                             System.out.println("Sorry but, Input not recognized");
                         }
                     }
-                    System.out.println("Please choose an entertainment type: live-band or Dj");
+                    System.out.println("Please choose an entertainment type: live band or dj");
                     boolean entertainmentCheck = true;
                     while (entertainmentCheck){
-                        String inputentertainment = bufferedReader.readLine();
-                        entertainment = inputentertainment;
-                        if (entertainment.equals("live-band") || food.equals("Dj")) {
+                        String inputEntertainment = bufferedReader.readLine();
+                        entertainment = inputEntertainment;
+                        if (entertainment.toLowerCase().equals("live band") || entertainment.toLowerCase().equals("dj")) {
+                            newParty.setTypeOfEntertainment(entertainment);
                             entertainmentCheck = false;
-
-                        } else {
-                            System.out.println("Sorry but, Input not recognized");
-                        }
+                            System.out.println("Entertainment cost: " + newParty.getEntertainmentCost());
+                            // calculating cost
+                            newParty.calculateCost();
+                            newParty.calculateBandCost();
+                            newParty.calculateBeverageCost();
+                            System.out.println(" Your total cost is: " + newParty.getTotalCost());
+                            System.out.println("--------------------------------------------------");
+                    System.out.println("Do you want to continue booking more? yes/no");
+                    String userContinue = bufferedReader.readLine();
+                    if(userContinue.equals("yes")){
+                        newParty = new Party();
+                    } else {
+                        programRunning = false;
                     }
-
-
-
+                    } else {
+                        System.out.println("Sorry but, Input not recognized");
+                    }
+                }
 
                 } else if(userEntry.equals("exit")){
                     programRunning = false;

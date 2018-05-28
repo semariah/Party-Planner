@@ -38,7 +38,7 @@ public class PartyTest {
         testParty.calculateBandCost();
         testParty.calculateBeverageCost();
         testParty.calculateCost();
-        System.out.println(" ===== " + testParty.getTotalCost());
+        System.out.println("  " + testParty.getTotalCost());
         assertEquals(8000, testParty.getTotalCost());
     }
 
