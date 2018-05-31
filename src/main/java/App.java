@@ -6,10 +6,6 @@ import java.io.InputStreamReader;
 
 public class App {
     public static void main(String[] args) {
-        int guests = 0;
-        String food = "";
-        String beverages = "";
-        String entertainment = "";
         boolean programRunning = true;
         while (programRunning) {
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
@@ -21,17 +17,16 @@ public class App {
                 if (userEntry.toLowerCase().equals("book an event")) {
                     System.out.println("How many people will be attending the event?");
                     String numberOfguests  = bufferedReader.readLine();
-                    guests = Integer.parseInt(numberOfguests);
-                    newParty.setNumberOfGuests(guests);
+                    newParty.setNumberOfGuests(Integer.parseInt(numberOfguests));
                     System.out.println("Number of guests: " + newParty.getNumberOfGuests());
                     System.out.println("Please choose a food courses: full course or light snacks");
 
                     boolean foodCheck = true;
                     while (foodCheck){
                         String inputFood = bufferedReader.readLine();
-                        food = inputFood;
-                        if (food.toLowerCase().equals("full course") || food.toLowerCase().equals("light snacks")) {
-                            newParty.setTypeOfFood(food);
+                        //food = inputFood;
+                        if (inputFood.toLowerCase().equals("full course") || inputFood.toLowerCase().equals("light snacks")) {
+                            newParty.setTypeOfFood(inputFood);
                             foodCheck = false;
                             System.out.println("Food cost: " + newParty.getFoodCost());
 
@@ -43,9 +38,9 @@ public class App {
                     boolean beverageCheck = true;
                     while (beverageCheck){
                         String inputBeverage = bufferedReader.readLine();
-                        beverages = inputBeverage;
-                        if (beverages.toLowerCase().equals("full bar") || beverages.toLowerCase().equals("soft drinks")) {
-                            newParty.setTypeOfBeverage(beverages);
+                        //beverages = inputBeverage;
+                        if (inputBeverage.toLowerCase().equals("full bar") || inputBeverage.toLowerCase().equals("soft drinks")) {
+                            newParty.setTypeOfBeverage(inputBeverage);
                             beverageCheck = false;
                             System.out.println("Beverage cost: " + newParty.getBeverageCost());
 
@@ -57,13 +52,13 @@ public class App {
                     boolean entertainmentCheck = true;
                     while (entertainmentCheck){
                         String inputEntertainment = bufferedReader.readLine();
-                        entertainment = inputEntertainment;
-                        if (entertainment.toLowerCase().equals("live band") || entertainment.toLowerCase().equals("dj")) {
-                            newParty.setTypeOfEntertainment(entertainment);
+                        //entertainment = inputEntertainment;
+                        if (inputEntertainment.toLowerCase().equals("live band") || inputEntertainment.toLowerCase().equals("dj")) {
+                            newParty.setTypeOfEntertainment(inputEntertainment);
                             entertainmentCheck = false;
                             System.out.println("Entertainment cost: " + newParty.getEntertainmentCost());
                             // calculating cost
-                            newParty.calculateCost();
+                            newParty.calculateFoodCost();
                             newParty.calculateBandCost();
                             newParty.calculateBeverageCost();
                             System.out.println(" Your total cost is: " + newParty.getTotalCost());

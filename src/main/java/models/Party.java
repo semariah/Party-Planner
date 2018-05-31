@@ -10,17 +10,19 @@ public class Party {
     private int entertainmentCost;
     private int totalCost;
 
-    public Party (int guests, String food, String beverage, String entertainment) {
-        numberOfGuests = guests;
-        typeOfFood = food;
-        typeOfBeverage = beverage;
-        typeOfEntertainment = entertainment;
-        this.totalCost = totalCost;
-    }
 
     public Party() {
 
     }
+
+    public Party (int numberOfGuests, String typeOfFood, String typeOfBeverage, String typeOfEntertainment){
+        this.numberOfGuests = numberOfGuests;
+        this.typeOfFood = typeOfFood;
+        this.typeOfBeverage = typeOfBeverage;
+        this.typeOfEntertainment = typeOfEntertainment;
+
+    }
+
 
     public void setNumberOfGuests(int numberOfGuests) {
         this.numberOfGuests = numberOfGuests;
@@ -55,7 +57,7 @@ public class Party {
         return entertainmentCost;
     }
 
-    public void calculateCost(){
+    public void calculateFoodCost(){
         if (typeOfFood.equals("full course")) {
             this.foodCost = 30;
         } else if (typeOfFood.equals("light snacks")){
@@ -87,16 +89,11 @@ public class Party {
     }
 
     public int getTotalCost() {
-        System.out.println(" food : " + foodCost + " beverage cost: " + beverageCost + "entertainment: " + entertainmentCost);
-        if (foodCost == 30 && beverageCost == 20 && entertainmentCost == 3000){
-            totalCost = (((foodCost + beverageCost) * numberOfGuests) + entertainmentCost);
-            return totalCost;
-        } else {
-            return 6000;
-        }
+        calculateFoodCost();
+        calculateBandCost();
+        calculateBeverageCost();
+        totalCost = (((foodCost + beverageCost) * numberOfGuests) + entertainmentCost);
+        return totalCost;
 
     }
-
-
-
 }

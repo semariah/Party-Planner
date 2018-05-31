@@ -12,9 +12,10 @@ public class PartyTest {
     }
 
     @Test
-    public void newParty_calculatesCost_30() {
-        Party testParty = new Party(100, "full-course", "full-bar", "live-band");
-        testParty.calculateCost();
+    public void setFoodType_forFullCourse_toCalculate_foodCost_30() {
+        Party testParty = new Party();
+        testParty.setTypeOfFood("full course");
+        testParty.calculateFoodCost();
         assertEquals(30, testParty.getFoodCost());
     }
 
@@ -34,10 +35,7 @@ public class PartyTest {
 
     @Test
     public void newParty_calculatesTotalCostOfParty_8000() {
-        Party testParty = new Party(100, "full-course", "full-bar", "live-band");
-        testParty.calculateBandCost();
-        testParty.calculateBeverageCost();
-        testParty.calculateCost();
+        Party testParty = new Party(100, "full course", "full bar", "live band");
         System.out.println("  " + testParty.getTotalCost());
         assertEquals(8000, testParty.getTotalCost());
     }
