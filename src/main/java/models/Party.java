@@ -5,11 +5,11 @@ public class Party {
     private String typeOfFood;
     private String typeOfBeverage;
     private String typeOfEntertainment;
+    private String typeOfDiscount;
     private int foodCost;
     private int beverageCost;
     private int entertainmentCost;
     private int totalCost;
-
 
     public Party() {
 
@@ -22,7 +22,6 @@ public class Party {
         this.typeOfEntertainment = typeOfEntertainment;
 
     }
-
 
     public void setNumberOfGuests(int numberOfGuests) {
         this.numberOfGuests = numberOfGuests;
@@ -55,6 +54,10 @@ public class Party {
 
     public int getEntertainmentCost() {
         return entertainmentCost;
+    }
+
+    public void setDiscountType(String wedding) {
+        this.typeOfDiscount = typeOfDiscount;
     }
 
     public void calculateFoodCost(){
@@ -96,4 +99,5 @@ public class Party {
         return totalCost;
 
     }
+
 }
