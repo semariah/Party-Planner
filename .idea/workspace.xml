@@ -27,8 +27,8 @@
       <file leaf-file-name="PartyTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/models/PartyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+            <state relative-caret-position="134">
+              <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,8 +104,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="41" />
-    <option name="width" value="1322" />
+    <option name="x" value="158" />
+    <option name="y" value="54" />
+    <option name="width" value="1139" />
     <option name="height" value="802" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -174,32 +175,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PartyTest.setEntertainmentType_forLiveBand_toCalculate_EntertainmentCost_3000">
+  <component name="RunManager" selected="JUnit.PartyTest.setGuestNumber_toBe_100_to_true">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="PartyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="models.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="models" />
-      <option name="MAIN_CLASS_NAME" value="models.PartyTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="PartyTest.newParty_calculatesTotalCostOfParty_8000" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
@@ -270,7 +248,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="PartyTest.setFoodType_forFullCourse_toCalculate_foodCost_30" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PartyTest.setGuestNumber_toBe_100" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
         <pattern>
@@ -282,7 +260,30 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="models" />
       <option name="MAIN_CLASS_NAME" value="models.PartyTest" />
-      <option name="METHOD_NAME" value="setFoodType_forFullCourse_toCalculate_foodCost_30" />
+      <option name="METHOD_NAME" value="setGuestNumber_toBe_100" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="PartyTest.setGuestNumber_toBe_100_to_true" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="models" />
+      <option name="MAIN_CLASS_NAME" value="models.PartyTest" />
+      <option name="METHOD_NAME" value="setGuestNumber_toBe_100_to_true" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -332,19 +333,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.PartyTest.setFoodType_forFullCourse_toCalculate_foodCost_30" />
-      <item itemvalue="JUnit.PartyTest" />
       <item itemvalue="JUnit.PartyTest.newParty_calculatesTotalCostOfParty_8000" />
       <item itemvalue="JUnit.PartyTest.setBeverageType_forFullBar_toCalculate_beverageCost_20" />
       <item itemvalue="JUnit.PartyTest.setEntertainmentType_forLiveBand_toCalculate_EntertainmentCost_3000" />
+      <item itemvalue="JUnit.PartyTest.setGuestNumber_toBe_100" />
+      <item itemvalue="JUnit.PartyTest.setGuestNumber_toBe_100_to_true" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PartyTest.setGuestNumber_toBe_100_to_true" />
+        <item itemvalue="JUnit.PartyTest.setGuestNumber_toBe_100" />
         <item itemvalue="JUnit.PartyTest.setEntertainmentType_forLiveBand_toCalculate_EntertainmentCost_3000" />
         <item itemvalue="JUnit.PartyTest.setBeverageType_forFullBar_toCalculate_beverageCost_20" />
         <item itemvalue="JUnit.PartyTest.newParty_calculatesTotalCostOfParty_8000" />
-        <item itemvalue="JUnit.PartyTest.setFoodType_forFullCourse_toCalculate_foodCost_30" />
-        <item itemvalue="JUnit.PartyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -362,21 +363,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PartyTest_setFoodType_forFullCourse_toCalculate_foodCost_30 - 2018.05.30 at 20h 31m 09s.xml">
-      <configuration name="PartyTest.setFoodType_forFullCourse_toCalculate_foodCost_30" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PartyTest - 2018.05.30 at 20h 34m 41s.xml">
-      <configuration name="PartyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PartyTest_setFoodType_forFullCourse_toCalculate_foodCost_30 - 2018.05.30 at 20h 35m 06s.xml">
-      <configuration name="PartyTest.setFoodType_forFullCourse_toCalculate_foodCost_30" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PartyTest_setFoodType_forFullCourse_toCalculate_foodCost_30 - 2018.05.30 at 21h 16m 47s.xml">
-      <configuration name="PartyTest.setFoodType_forFullCourse_toCalculate_foodCost_30" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PartyTest_newParty_calculatesTotalCostOfParty_8000 - 2018.05.30 at 21h 29m 18s.xml">
-      <configuration name="PartyTest.newParty_calculatesTotalCostOfParty_8000" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PartyTest_newParty_calculatesTotalCostOfParty_8000 - 2018.05.30 at 21h 30m 02s.xml">
       <configuration name="PartyTest.newParty_calculatesTotalCostOfParty_8000" configurationId="JUnit" />
     </history-entry>
@@ -392,9 +378,24 @@
     <history-entry file="PartyTest_newParty_calculatesTotalCostOfParty_8000 - 2018.05.30 at 22h 01m 41s.xml">
       <configuration name="PartyTest.newParty_calculatesTotalCostOfParty_8000" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PartyTest_setBeverageType_forFullBar_toCalculate_beverageCost_20 - 2018.05.30 at 22h 06m 42s.xml">
+      <configuration name="PartyTest.setBeverageType_forFullBar_toCalculate_beverageCost_20" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PartyTest_setEntertainmentType_forLiveBand_toCalculate_EntertainmentCost_3000 - 2018.05.30 at 22h 08m 48s.xml">
+      <configuration name="PartyTest.setEntertainmentType_forLiveBand_toCalculate_EntertainmentCost_3000" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PartyTest_setGuestNumber_toBe_100 - 2018.05.30 at 22h 12m 39s.xml">
+      <configuration name="PartyTest.setGuestNumber_toBe_100" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PartyTest_setGuestNumber_toBe_100 - 2018.05.30 at 22h 12m 51s.xml">
+      <configuration name="PartyTest.setGuestNumber_toBe_100" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PartyTest_setGuestNumber_toBe_100_to_true - 2018.05.30 at 22h 13m 34s.xml">
+      <configuration name="PartyTest.setGuestNumber_toBe_100_to_true" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="41" width="1322" height="802" extended-state="0" />
+    <frame x="158" y="54" width="1139" height="802" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -405,12 +406,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297568" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31205675" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31205675" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32907802" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13125" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23883317" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.017632242" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -699,8 +700,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/models/PartyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+        <state relative-caret-position="134">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -12,11 +12,10 @@ public class PartyTest {
     }
 
     @Test
-    public void setFoodType_forFullCourse_toCalculate_foodCost_30() {
+    public void setGuestNumber_toBe_100_to_true() {
         Party testParty = new Party();
-        testParty.setTypeOfFood("full course");
-        testParty.calculateFoodCost();
-        assertEquals(30, testParty.getFoodCost());
+        testParty.setNumberOfGuests(100);
+        assertEquals(100, testParty.getNumberOfGuests());
     }
 
     @Test
