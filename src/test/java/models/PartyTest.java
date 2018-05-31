@@ -20,15 +20,25 @@ public class PartyTest {
     }
 
     @Test
-    public void newParty_calculatesBeverageCost_20() {
-        Party testParty = new Party(100, "full-course", "full-bar", "live-band");
+    public void setFoodType_forFullCourse_toCalculate_foodCost_30() {
+        Party testParty = new Party();
+        testParty.setTypeOfFood("full course");
+        testParty.calculateFoodCost();
+        assertEquals(30, testParty.getFoodCost());
+    }
+
+    @Test
+    public void setBeverageType_forFullBar_toCalculate_beverageCost_20() {
+        Party testParty = new Party();
+        testParty.setTypeOfBeverage("full bar");
         testParty.calculateBeverageCost();
         assertEquals(20, testParty.getBeverageCost());
     }
 
     @Test
-    public void newParty_calculatesEntertainmentCost_3000() {
-        Party testParty = new Party(100, "full-course", "full-bar", "live-band");
+    public void setEntertainmentType_forLiveBand_toCalculate_EntertainmentCost_3000() {
+        Party testParty = new Party();
+        testParty.setTypeOfEntertainment("live band");
         testParty.calculateBandCost();
         assertEquals(3000, testParty.getEntertainmentCost());
     }
