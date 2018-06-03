@@ -31,7 +31,7 @@ public class PartyTest {
         Party testParty = new Party();
         testParty.setTypeOfFood("light snacks");
         testParty.calculateFoodCost();
-        assertEquals(30, testParty.getFoodCost());
+        assertEquals(20, testParty.getFoodCost());
     }
 
     @Test
