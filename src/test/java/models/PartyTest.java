@@ -27,6 +27,14 @@ public class PartyTest {
     }
 
     @Test
+    public void setFoodType_forLightSnacks_toCalculate_foodCost_10() {
+        Party testParty = new Party();
+        testParty.setTypeOfFood("light snacks");
+        testParty.calculateFoodCost();
+        assertEquals(30, testParty.getFoodCost());
+    }
+
+    @Test
     public void setBeverageType_forFullBar_toCalculate_beverageCost_20() {
         Party testParty = new Party();
         testParty.setTypeOfBeverage("full bar");
