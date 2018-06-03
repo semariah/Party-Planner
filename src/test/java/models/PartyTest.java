@@ -43,6 +43,14 @@ public class PartyTest {
     }
 
     @Test
+    public void setBeverageType_forSoftDrinks_toCalculate_beverageCost_10() {
+        Party testParty = new Party();
+        testParty.setTypeOfBeverage("soft drinks");
+        testParty.calculateBeverageCost();
+        assertEquals(20, testParty.getBeverageCost());
+    }
+
+    @Test
     public void setEntertainmentType_forLiveBand_toCalculate_EntertainmentCost_3000() {
         Party testParty = new Party();
         testParty.setTypeOfEntertainment("live band");
