@@ -63,7 +63,7 @@ public class PartyTest {
         Party testParty = new Party();
         testParty.setTypeOfEntertainment("dj");
         testParty.calculateBandCost();
-        assertEquals(3000, testParty.getEntertainmentCost());
+        assertEquals(2000, testParty.getEntertainmentCost());
     }
 
     @Test
