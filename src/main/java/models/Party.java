@@ -10,6 +10,7 @@ public class Party {
     private int beverageCost;
     private int entertainmentCost;
     private int totalCost;
+    private int coupon;
 
     public Party() {
 
@@ -100,4 +101,14 @@ public class Party {
 
     }
 
+
+    public boolean calculateCouponCost(String coupon) {
+        if(coupon.equals("office party")){
+            totalCost -= 400;
+            return true;
+        }else {
+            totalCost -= 0;
+            return false;
+        }
+    }
 }

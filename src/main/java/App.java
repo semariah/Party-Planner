@@ -20,15 +20,12 @@ public class App {
                     newParty.setNumberOfGuests(Integer.parseInt(numberOfguests));
                     System.out.println("Number of guests: " + newParty.getNumberOfGuests());
                     System.out.println("Please choose a food courses: full course or light snacks");
-
                     boolean foodCheck = true;
                     while (foodCheck){
                         String inputFood = bufferedReader.readLine();
-                        //food = inputFood;
                         if (inputFood.toLowerCase().equals("full course") || inputFood.toLowerCase().equals("light snacks")) {
                             newParty.setTypeOfFood(inputFood);
                             foodCheck = false;
-                            System.out.println("Food cost: " + newParty.getFoodCost());
 
                         } else {
                             System.out.println("Sorry but, Input not recognized");
@@ -38,11 +35,9 @@ public class App {
                     boolean beverageCheck = true;
                     while (beverageCheck){
                         String inputBeverage = bufferedReader.readLine();
-                        //beverages = inputBeverage;
                         if (inputBeverage.toLowerCase().equals("full bar") || inputBeverage.toLowerCase().equals("soft drinks")) {
                             newParty.setTypeOfBeverage(inputBeverage);
                             beverageCheck = false;
-                            System.out.println("Beverage cost: " + newParty.getBeverageCost());
 
                         } else {
                             System.out.println("Sorry but, Input not recognized");
@@ -52,12 +47,9 @@ public class App {
                     boolean entertainmentCheck = true;
                     while (entertainmentCheck){
                         String inputEntertainment = bufferedReader.readLine();
-                        //entertainment = inputEntertainment;
                         if (inputEntertainment.toLowerCase().equals("live band") || inputEntertainment.toLowerCase().equals("dj")) {
                             newParty.setTypeOfEntertainment(inputEntertainment);
                             entertainmentCheck = false;
-                            System.out.println("Entertainment cost: " + newParty.getEntertainmentCost());
-                            // calculating cost
                             newParty.calculateFoodCost();
                             newParty.calculateBandCost();
                             newParty.calculateBeverageCost();
