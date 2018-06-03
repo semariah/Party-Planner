@@ -166,7 +166,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PartyTest.setCouponType_toCalculate_TotalCost_true">
+  <component name="RunManager" selected="JUnit.PartyTest.setCouponType_toCalculate_validEntry_true">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="main" />
@@ -221,6 +221,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="PartyTest.setCouponType_toCalculate_validEntry_true" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="models" />
+      <option name="MAIN_CLASS_NAME" value="models.PartyTest" />
+      <option name="METHOD_NAME" value="setCouponType_toCalculate_validEntry_true" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="PartyTest.setEntertainmentType_forDj_toCalculate_EntertainmentCost_2000" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
@@ -234,29 +257,6 @@
       <option name="PACKAGE_NAME" value="models" />
       <option name="MAIN_CLASS_NAME" value="models.PartyTest" />
       <option name="METHOD_NAME" value="setEntertainmentType_forDj_toCalculate_EntertainmentCost_2000" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="PartyTest.setFoodType_forLightSnacks_toCalculate_foodCost_10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="models.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="models" />
-      <option name="MAIN_CLASS_NAME" value="models.PartyTest" />
-      <option name="METHOD_NAME" value="setFoodType_forLightSnacks_toCalculate_foodCost_10" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -306,19 +306,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.PartyTest.setFoodType_forLightSnacks_toCalculate_foodCost_10" />
       <item itemvalue="JUnit.PartyTest.setBeverageType_forSoftDrinks_toCalculate_beverageCost_10" />
       <item itemvalue="JUnit.PartyTest.setEntertainmentType_forDj_toCalculate_EntertainmentCost_2000" />
       <item itemvalue="Application.App" />
       <item itemvalue="JUnit.PartyTest.setCouponType_toCalculate_TotalCost_true" />
+      <item itemvalue="JUnit.PartyTest.setCouponType_toCalculate_validEntry_true" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PartyTest.setCouponType_toCalculate_validEntry_true" />
         <item itemvalue="JUnit.PartyTest.setCouponType_toCalculate_TotalCost_true" />
         <item itemvalue="Application.App" />
         <item itemvalue="JUnit.PartyTest.setEntertainmentType_forDj_toCalculate_EntertainmentCost_2000" />
         <item itemvalue="JUnit.PartyTest.setBeverageType_forSoftDrinks_toCalculate_beverageCost_10" />
-        <item itemvalue="JUnit.PartyTest.setFoodType_forLightSnacks_toCalculate_foodCost_10" />
       </list>
     </recent_temporary>
   </component>

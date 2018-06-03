@@ -67,10 +67,10 @@ public class PartyTest {
     }
 
     @Test
-    public void setCouponType_toCalculate_TotalCost_true() {
+    public void setCouponType_toCalculate_validEntry_true() {
         Party testParty = new Party();
         testParty.calculateCouponCost("office party");
-        assertEquals(false, testParty.calculateCouponCost("office party"));
+        assertEquals(true, testParty.calculateCouponCost("office party"));
     }
 
     @Test
