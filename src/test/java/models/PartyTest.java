@@ -59,6 +59,14 @@ public class PartyTest {
     }
 
     @Test
+    public void setEntertainmentType_forDj_toCalculate_EntertainmentCost_2000() {
+        Party testParty = new Party();
+        testParty.setTypeOfEntertainment("dj");
+        testParty.calculateBandCost();
+        assertEquals(3000, testParty.getEntertainmentCost());
+    }
+
+    @Test
     public void newParty_calculatesTotalCostOfParty_8000() {
         Party testParty = new Party(100, "full course", "full bar", "live band");
         assertEquals(8000, testParty.getTotalCost());
