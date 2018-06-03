@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d9438c0-f708-4b87-9093-1ed5759c1de8" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/models/PartyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/PartyTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,8 +30,8 @@
       <file leaf-file-name="PartyTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/models/PartyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="47" column="48" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
+            <state relative-caret-position="170">
+              <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -352,9 +353,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PartyTest_generate_ifItInstantiates_true - 2018.05.30 at 22h 48m 56s.xml">
-      <configuration name="PartyTest.generate_ifItInstantiates_true" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PartyTest_setDiscountType_forWedding_toCalculate_TotalCost_2900 - 2018.05.30 at 22h 57m 02s.xml">
       <configuration name="PartyTest.setDiscountType_forWedding_toCalculate_TotalCost_2900" configurationId="JUnit" />
     </history-entry>
@@ -381,6 +379,9 @@
     </history-entry>
     <history-entry file="PartyTest_setFoodType_forLightSnacks_toCalculate_foodCost_10 - 2018.06.03 at 15h 02m 44s.xml">
       <configuration name="PartyTest.setFoodType_forLightSnacks_toCalculate_foodCost_10" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PartyTest_setBeverageType_forSoftDrinks_toCalculate_beverageCost_10 - 2018.06.03 at 15h 05m 39s.xml">
+      <configuration name="PartyTest.setBeverageType_forSoftDrinks_toCalculate_beverageCost_10" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -692,8 +693,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/models/PartyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="47" column="48" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
+        <state relative-caret-position="170">
+          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

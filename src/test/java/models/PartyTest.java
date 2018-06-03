@@ -47,7 +47,7 @@ public class PartyTest {
         Party testParty = new Party();
         testParty.setTypeOfBeverage("soft drinks");
         testParty.calculateBeverageCost();
-        assertEquals(20, testParty.getBeverageCost());
+        assertEquals(10, testParty.getBeverageCost());
     }
 
     @Test
