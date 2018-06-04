@@ -14,7 +14,7 @@ public class App {
             try {
                 System.out.println("Please make a selection: book an event or exit ");
                 String userEntry = bufferedReader.readLine();
-                if (userEntry.toLowerCase().equals("book an event")) {
+                if (userEntry.toLowerCase().equals("Book an event")) {
                     System.out.println("How many people will be attending the event?");
                     String numberOfguests  = bufferedReader.readLine();
                     newParty.setNumberOfGuests(Integer.parseInt(numberOfguests));
@@ -62,13 +62,13 @@ public class App {
                                 String inputDiscountValue = bufferedReader.readLine();
                                 if (inputDiscountValue.toLowerCase().equals("office party")){
                                     newParty.calculateCouponCost(inputDiscountValue.toLowerCase());
-                                    System.out.println("your discounted total cost is $ " + newParty.getTotalCost());
+                                    System.out.println("Your discounted total cost is $ " + newParty.getTotalCost());
                                 }
                             } else if (inputCoupon.toLowerCase().equals("no")){
-                                System.out.println("Thank you for booking with us");
+                                System.out.println("Thank you for booking with us!");
                                 programRunning = false;
                             } else {
-                                System.out.println("sorry, invalid entry");
+                                System.out.println("Sorry, Invalid entry");
                             }
                     System.out.println("Do you want to continue booking more? yes/no");
                     String userContinue = bufferedReader.readLine();
@@ -78,11 +78,11 @@ public class App {
                         programRunning = false;
                     }
                     } else {
-                        System.out.println("Sorry but, Input not recognized");
+                        System.out.println("Sorry, Input not recognized");
                     }
                 }
 
-                } else if(userEntry.equals("exit")){
+                } else if(userEntry.equals("Exit")){
                     programRunning = false;
                 } else{
                     System.out.println("Sorry, Invalid input. Please try again");

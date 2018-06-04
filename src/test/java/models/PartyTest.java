@@ -27,7 +27,7 @@ public class PartyTest {
     }
 
     @Test
-    public void setFoodType_forLightSnacks_toCalculate_foodCost_10() {
+    public void setFoodType_forLightSnacks_toCalculate_foodCost_20() {
         Party testParty = new Party();
         testParty.setTypeOfFood("light snacks");
         testParty.calculateFoodCost();
