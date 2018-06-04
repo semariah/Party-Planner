@@ -74,7 +74,7 @@ public class PartyTest {
     }
 
     @Test
-    public void sTotalCost_checksForCouponDeduction_7600() throws Exception{
+    public void calculateTotalCost_toCheckForCouponDeduction_7600() throws Exception{
         Party testParty = new Party();
         testParty.setNumberOfGuests(100);
         testParty.setTypeOfFood("full course");
@@ -82,7 +82,7 @@ public class PartyTest {
         testParty.setTypeOfEntertainment("live band");
         testParty.calculateTotalCost();
         testParty.calculateCouponCost("office party");
-        assertEquals(2300, testParty.getTotalCost());
+        assertEquals(7600, testParty.getTotalCost());
     }
 
 

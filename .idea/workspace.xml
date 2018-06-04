@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d9438c0-f708-4b87-9093-1ed5759c1de8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Party.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Party.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/models/PartyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/PartyTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,8 +29,8 @@
       <file leaf-file-name="PartyTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/models/PartyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="83" column="25" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="25" />
+            <state relative-caret-position="228">
+              <caret line="84" column="23" selection-start-line="84" selection-start-column="23" selection-end-line="84" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -347,15 +345,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PartyTest_setCouponType_toCalculate_validEntry_true - 2018.06.03 at 16h 45m 18s.xml">
-      <configuration name="PartyTest.setCouponType_toCalculate_validEntry_true" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PartyTest_setTotalCost_checksForCouponDeduction_7600 - 2018.06.03 at 16h 57m 41s.xml">
-      <configuration name="PartyTest.setTotalCost_checksForCouponDeduction_7600" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PartyTest_setTotalCost_checksForCouponDeduction_7600 - 2018.06.03 at 17h 04m 04s.xml">
-      <configuration name="PartyTest.setTotalCost_checksForCouponDeduction_7600" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PartyTest_setTotalCost_checksForCouponDeduction_7600 - 2018.06.03 at 17h 08m 48s.xml">
       <configuration name="PartyTest.setTotalCost_checksForCouponDeduction_7600" configurationId="JUnit" />
     </history-entry>
@@ -377,6 +366,15 @@
     <history-entry file="PartyTest_sTotalCost_checksForCouponDeduction_7600 - 2018.06.03 at 21h 08m 07s.xml">
       <configuration name="PartyTest.sTotalCost_checksForCouponDeduction_7600" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PartyTest_sTotalCost_checksForCouponDeduction_7600 - 2018.06.03 at 21h 10m 25s.xml">
+      <configuration name="PartyTest.sTotalCost_checksForCouponDeduction_7600" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PartyTest_sTotalCost_checksForCouponDeduction_7600 - 2018.06.03 at 21h 12m 29s.xml">
+      <configuration name="PartyTest.sTotalCost_checksForCouponDeduction_7600" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PartyTest_sTotalCost_checksForCouponDeduction_7600 - 2018.06.03 at 21h 14m 17s.xml">
+      <configuration name="PartyTest.sTotalCost_checksForCouponDeduction_7600" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="107" y="33" width="1274" height="770" extended-state="0" />
@@ -390,9 +388,9 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297568" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3640416" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3640416" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.375" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3744428" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08198052" />
@@ -700,8 +698,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/models/PartyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="83" column="25" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="25" />
+        <state relative-caret-position="228">
+          <caret line="84" column="23" selection-start-line="84" selection-start-column="23" selection-end-line="84" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
