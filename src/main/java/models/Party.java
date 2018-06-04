@@ -110,7 +110,5 @@ public class Party {
         return totalCost;
     }
 
-//    public void setTotalCost() {
-//         this.totalCost;
-//    }
+
 }

@@ -31,7 +31,7 @@ public class App {
                             System.out.println("Sorry but, Input not recognized");
                         }
                     }
-                    System.out.println("Please choose a beverage courses: full-bar or soft drinks");
+                    System.out.println("Please choose a beverage courses: full bar or soft drinks");
                     boolean beverageCheck = true;
                     while (beverageCheck){
                         String inputBeverage = bufferedReader.readLine();
@@ -55,6 +55,21 @@ public class App {
                             newParty.calculateBeverageCost();
                             System.out.println(" Your total cost is: " + newParty.calculateTotalCost());
                             System.out.println("--------------------------------------------------");
+                            System.out.println("Do you have a coupon code for extra deduction from total cost? yes/no");
+                            String inputCoupon = bufferedReader.readLine();
+                            if(inputCoupon.toLowerCase().equals("yes")){
+                                System.out.println("Please enter the code:");
+                                String inputDiscountValue = bufferedReader.readLine();
+                                if (inputDiscountValue.toLowerCase().equals("office party")){
+                                    newParty.calculateCouponCost(inputDiscountValue.toLowerCase());
+                                    System.out.println("your discounted total cost is $ " + newParty.getTotalCost());
+                                }
+                            } else if (inputCoupon.toLowerCase().equals("no")){
+                                System.out.println("Thank you for booking with us");
+                                programRunning = false;
+                            } else {
+                                System.out.println("sorry, invalid entry");
+                            }
                     System.out.println("Do you want to continue booking more? yes/no");
                     String userContinue = bufferedReader.readLine();
                     if(userContinue.equals("yes")){
