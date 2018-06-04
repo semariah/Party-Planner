@@ -53,7 +53,7 @@ public class App {
                             newParty.calculateFoodCost();
                             newParty.calculateBandCost();
                             newParty.calculateBeverageCost();
-                            System.out.println(" Your total cost is: " + newParty.getTotalCost());
+                            System.out.println(" Your total cost is: " + newParty.calculateTotalCost());
                             System.out.println("--------------------------------------------------");
                     System.out.println("Do you want to continue booking more? yes/no");
                     String userContinue = bufferedReader.readLine();

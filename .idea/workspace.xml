@@ -31,11 +31,20 @@
       <file leaf-file-name="PartyTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/models/PartyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="69" column="56" selection-start-line="69" selection-start-column="56" selection-end-line="69" selection-end-column="56" />
+            <state relative-caret-position="154">
+              <caret line="83" column="25" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Assert.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/Assert.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="339" column="38" lean-forward="true" selection-start-line="339" selection-start-column="38" selection-end-line="339" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -55,11 +64,13 @@
       <file leaf-file-name="Party.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/models/Party.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="110" column="25" selection-start-line="110" selection-start-column="25" selection-end-line="110" selection-end-column="25" />
+            <state relative-caret-position="126">
+              <caret line="99" column="19" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
               <folding>
                 <element signature="e#716#717#0" expanded="true" />
                 <element signature="e#768#769#0" expanded="true" />
+                <element signature="e#2769#2770#0" expanded="true" />
+                <element signature="e#2800#2801#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,8 +93,8 @@
       <list>
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/App.java" />
-        <option value="$PROJECT_DIR$/src/test/java/models/PartyTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Party.java" />
+        <option value="$PROJECT_DIR$/src/test/java/models/PartyTest.java" />
       </list>
     </option>
   </component>
@@ -94,10 +105,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="480" />
-    <option name="y" value="23" />
-    <option name="width" value="866" />
-    <option name="height" value="633" />
+    <option name="x" value="107" />
+    <option name="y" value="33" />
+    <option name="width" value="1274" />
+    <option name="height" value="770" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -166,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PartyTest.setCouponType_toCalculate_validEntry_true">
+  <component name="RunManager" selected="JUnit.PartyTest.sTotalCost_checksForCouponDeduction_7600">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="main" />
@@ -175,7 +186,7 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="PartyTest.setBeverageType_forSoftDrinks_toCalculate_beverageCost_10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PartyTest.sTotalCost_checksForCouponDeduction_7600" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
         <pattern>
@@ -187,7 +198,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="models" />
       <option name="MAIN_CLASS_NAME" value="models.PartyTest" />
-      <option name="METHOD_NAME" value="setBeverageType_forSoftDrinks_toCalculate_beverageCost_10" />
+      <option name="METHOD_NAME" value="sTotalCost_checksForCouponDeduction_7600" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -244,7 +255,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="PartyTest.setEntertainmentType_forDj_toCalculate_EntertainmentCost_2000" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PartyTest.setTotalCost_checksForCouponDeduction_7600" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
         <pattern>
@@ -256,7 +267,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="models" />
       <option name="MAIN_CLASS_NAME" value="models.PartyTest" />
-      <option name="METHOD_NAME" value="setEntertainmentType_forDj_toCalculate_EntertainmentCost_2000" />
+      <option name="METHOD_NAME" value="setTotalCost_checksForCouponDeduction_7600" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -306,19 +317,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.PartyTest.setBeverageType_forSoftDrinks_toCalculate_beverageCost_10" />
-      <item itemvalue="JUnit.PartyTest.setEntertainmentType_forDj_toCalculate_EntertainmentCost_2000" />
       <item itemvalue="Application.App" />
       <item itemvalue="JUnit.PartyTest.setCouponType_toCalculate_TotalCost_true" />
       <item itemvalue="JUnit.PartyTest.setCouponType_toCalculate_validEntry_true" />
+      <item itemvalue="JUnit.PartyTest.setTotalCost_checksForCouponDeduction_7600" />
+      <item itemvalue="JUnit.PartyTest.sTotalCost_checksForCouponDeduction_7600" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PartyTest.sTotalCost_checksForCouponDeduction_7600" />
+        <item itemvalue="JUnit.PartyTest.setTotalCost_checksForCouponDeduction_7600" />
         <item itemvalue="JUnit.PartyTest.setCouponType_toCalculate_validEntry_true" />
         <item itemvalue="JUnit.PartyTest.setCouponType_toCalculate_TotalCost_true" />
         <item itemvalue="Application.App" />
-        <item itemvalue="JUnit.PartyTest.setEntertainmentType_forDj_toCalculate_EntertainmentCost_2000" />
-        <item itemvalue="JUnit.PartyTest.setBeverageType_forSoftDrinks_toCalculate_beverageCost_10" />
       </list>
     </recent_temporary>
   </component>
@@ -336,39 +347,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PartyTest_newParty_calculatesTotalCostOfParty_8000 - 2018.05.30 at 23h 19m 25s.xml">
-      <configuration name="PartyTest.newParty_calculatesTotalCostOfParty_8000" configurationId="JUnit" />
+    <history-entry file="PartyTest_setCouponType_toCalculate_validEntry_true - 2018.06.03 at 16h 45m 18s.xml">
+      <configuration name="PartyTest.setCouponType_toCalculate_validEntry_true" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PartyTest_setDiscountType_forWedding_toCalculate_TotalCost_2900 - 2018.05.30 at 23h 23m 32s.xml">
-      <configuration name="PartyTest.setDiscountType_forWedding_toCalculate_TotalCost_2900" configurationId="JUnit" />
+    <history-entry file="PartyTest_setTotalCost_checksForCouponDeduction_7600 - 2018.06.03 at 16h 57m 41s.xml">
+      <configuration name="PartyTest.setTotalCost_checksForCouponDeduction_7600" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PartyTest_setDiscountType_forWedding_toCalculate_TotalCost_2900 - 2018.05.30 at 23h 26m 17s.xml">
-      <configuration name="PartyTest.setDiscountType_forWedding_toCalculate_TotalCost_2900" configurationId="JUnit" />
+    <history-entry file="PartyTest_setTotalCost_checksForCouponDeduction_7600 - 2018.06.03 at 17h 04m 04s.xml">
+      <configuration name="PartyTest.setTotalCost_checksForCouponDeduction_7600" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PartyTest_setFoodType_forLightSnacks_toCalculate_foodCost_10 - 2018.06.03 at 15h 01m 31s.xml">
-      <configuration name="PartyTest.setFoodType_forLightSnacks_toCalculate_foodCost_10" configurationId="JUnit" />
+    <history-entry file="PartyTest_setTotalCost_checksForCouponDeduction_7600 - 2018.06.03 at 17h 08m 48s.xml">
+      <configuration name="PartyTest.setTotalCost_checksForCouponDeduction_7600" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PartyTest_setFoodType_forLightSnacks_toCalculate_foodCost_10 - 2018.06.03 at 15h 02m 44s.xml">
-      <configuration name="PartyTest.setFoodType_forLightSnacks_toCalculate_foodCost_10" configurationId="JUnit" />
+    <history-entry file="PartyTest_setTotalCost_checksForCouponDeduction_7600 - 2018.06.03 at 17h 11m 18s.xml">
+      <configuration name="PartyTest.setTotalCost_checksForCouponDeduction_7600" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PartyTest_setBeverageType_forSoftDrinks_toCalculate_beverageCost_10 - 2018.06.03 at 15h 05m 39s.xml">
-      <configuration name="PartyTest.setBeverageType_forSoftDrinks_toCalculate_beverageCost_10" configurationId="JUnit" />
+    <history-entry file="PartyTest_setTotalCost_checksForCouponDeduction_7600 - 2018.06.03 at 17h 18m 31s.xml">
+      <configuration name="PartyTest.setTotalCost_checksForCouponDeduction_7600" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PartyTest_setBeverageType_forSoftDrinks_toCalculate_beverageCost_10 - 2018.06.03 at 15h 19m 47s.xml">
-      <configuration name="PartyTest.setBeverageType_forSoftDrinks_toCalculate_beverageCost_10" configurationId="JUnit" />
+    <history-entry file="PartyTest_sTotalCost_checksForCouponDeduction_7600 - 2018.06.03 at 21h 04m 09s.xml">
+      <configuration name="PartyTest.sTotalCost_checksForCouponDeduction_7600" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PartyTest_setEntertainmentType_forDj_toCalculate_EntertainmentCost_2000 - 2018.06.03 at 15h 35m 59s.xml">
-      <configuration name="PartyTest.setEntertainmentType_forDj_toCalculate_EntertainmentCost_2000" configurationId="JUnit" />
+    <history-entry file="PartyTest_sTotalCost_checksForCouponDeduction_7600 - 2018.06.03 at 21h 05m 02s.xml">
+      <configuration name="PartyTest.sTotalCost_checksForCouponDeduction_7600" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PartyTest_setEntertainmentType_forDj_toCalculate_EntertainmentCost_2000 - 2018.06.03 at 15h 37m 22s.xml">
-      <configuration name="PartyTest.setEntertainmentType_forDj_toCalculate_EntertainmentCost_2000" configurationId="JUnit" />
+    <history-entry file="PartyTest_sTotalCost_checksForCouponDeduction_7600 - 2018.06.03 at 21h 06m 49s.xml">
+      <configuration name="PartyTest.sTotalCost_checksForCouponDeduction_7600" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PartyTest_setEntertainmentType_forDj_toCalculate_EntertainmentCost_2000 - 2018.06.03 at 16h 10m 02s.xml">
-      <configuration name="PartyTest.setEntertainmentType_forDj_toCalculate_EntertainmentCost_2000" configurationId="JUnit" />
+    <history-entry file="PartyTest_sTotalCost_checksForCouponDeduction_7600 - 2018.06.03 at 21h 08m 07s.xml">
+      <configuration name="PartyTest.sTotalCost_checksForCouponDeduction_7600" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="480" y="23" width="866" height="633" extended-state="0" />
+    <frame x="107" y="33" width="1274" height="770" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -379,12 +390,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297568" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.45708954" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3640416" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.375" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12257282" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08198052" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.017632242" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -478,6 +489,8 @@
           <folding>
             <element signature="e#716#717#0" expanded="true" />
             <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#2769#2770#0" expanded="true" />
+            <element signature="e#2800#2801#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -589,6 +602,8 @@
           <folding>
             <element signature="e#716#717#0" expanded="true" />
             <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#2769#2770#0" expanded="true" />
+            <element signature="e#2800#2801#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -663,21 +678,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="339" column="38" lean-forward="true" selection-start-line="339" selection-start-column="38" selection-end-line="339" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/Party.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="110" column="25" selection-start-line="110" selection-start-column="25" selection-end-line="110" selection-end-column="25" />
+        <state relative-caret-position="126">
+          <caret line="99" column="19" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
           <folding>
             <element signature="e#716#717#0" expanded="true" />
             <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#2769#2770#0" expanded="true" />
+            <element signature="e#2800#2801#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/models/PartyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="69" column="56" selection-start-line="69" selection-start-column="56" selection-end-line="69" selection-end-column="56" />
+        <state relative-caret-position="154">
+          <caret line="83" column="25" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

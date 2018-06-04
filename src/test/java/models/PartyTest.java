@@ -74,9 +74,22 @@ public class PartyTest {
     }
 
     @Test
+    public void sTotalCost_checksForCouponDeduction_7600() throws Exception{
+        Party testParty = new Party();
+        testParty.setNumberOfGuests(100);
+        testParty.setTypeOfFood("full course");
+        testParty.setTypeOfBeverage("full bar");
+        testParty.setTypeOfEntertainment("live band");
+        testParty.calculateTotalCost();
+        testParty.calculateCouponCost("office party");
+        assertEquals(2300, testParty.getTotalCost());
+    }
+
+
+    @Test
     public void newParty_calculatesTotalCostOfParty_8000() {
         Party testParty = new Party(100, "full course", "full bar", "live band");
-        assertEquals(8000, testParty.getTotalCost());
+        assertEquals(8000, testParty.calculateTotalCost());
     }
 
 }

@@ -10,7 +10,6 @@ public class Party {
     private int beverageCost;
     private int entertainmentCost;
     private int totalCost;
-    private int coupon;
 
     public Party() {
 
@@ -57,10 +56,6 @@ public class Party {
         return entertainmentCost;
     }
 
-    public void setDiscountType(String wedding) {
-        this.typeOfDiscount = typeOfDiscount;
-    }
-
     public void calculateFoodCost(){
         if (typeOfFood.equals("full course")) {
             this.foodCost = 30;
@@ -92,7 +87,7 @@ public class Party {
         }
     }
 
-    public int getTotalCost() {
+    public int calculateTotalCost() {
         calculateFoodCost();
         calculateBandCost();
         calculateBeverageCost();
@@ -107,8 +102,15 @@ public class Party {
             totalCost -= 400;
             return true;
         }else {
-            totalCost -= 0;
             return false;
         }
     }
+
+    public int getTotalCost(){
+        return totalCost;
+    }
+
+//    public void setTotalCost() {
+//         this.totalCost;
+//    }
 }
