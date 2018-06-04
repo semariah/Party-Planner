@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d9438c0-f708-4b87-9093-1ed5759c1de8" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Party.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Party.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/models/PartyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/PartyTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PartyTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PartyTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/models/PartyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
+            <state relative-caret-position="-442">
+              <caret line="29" column="65" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,7 +40,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="327">
@@ -54,8 +55,8 @@
       <file leaf-file-name="Party.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/models/Party.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="61" column="10" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+            <state relative-caret-position="233">
+              <caret line="84" column="9" lean-forward="true" selection-start-line="82" selection-start-column="10" selection-end-line="84" selection-end-column="9" />
               <folding>
                 <element signature="e#716#717#0" expanded="true" />
                 <element signature="e#768#769#0" expanded="true" />
@@ -82,9 +83,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/App.java" />
         <option value="$PROJECT_DIR$/src/test/java/models/PartyTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Party.java" />
-        <option value="$PROJECT_DIR$/src/main/java/App.java" />
       </list>
     </option>
   </component>
@@ -337,12 +338,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PartyTest_sTotalCost_checksForCouponDeduction_7600 - 2018.06.03 at 21h 04m 09s.xml">
-      <configuration name="PartyTest.sTotalCost_checksForCouponDeduction_7600" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PartyTest_sTotalCost_checksForCouponDeduction_7600 - 2018.06.03 at 21h 05m 02s.xml">
-      <configuration name="PartyTest.sTotalCost_checksForCouponDeduction_7600" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PartyTest_sTotalCost_checksForCouponDeduction_7600 - 2018.06.03 at 21h 06m 49s.xml">
       <configuration name="PartyTest.sTotalCost_checksForCouponDeduction_7600" configurationId="JUnit" />
     </history-entry>
@@ -367,10 +362,15 @@
     <history-entry file="PartyTest_calculateTotalCost_toCheckForInvalidCouponDeduction_false - 2018.06.03 at 21h 23m 22s.xml">
       <configuration name="PartyTest.calculateTotalCost_toCheckForInvalidCouponDeduction_false" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PartyTest - 2018.06.03 at 21h 50m 11s.xml">
+      <configuration name="PartyTest" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="PartyTest - 2018.06.03 at 21h 52m 26s.xml">
+      <configuration name="PartyTest" configurationId="AndroidJUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="754" y="33" width="627" height="770" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -380,9 +380,9 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297568" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3640416" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3640416" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3744428" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3744428" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17264958" />
@@ -665,10 +665,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/models/PartyTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
+        <state relative-caret-position="327">
+          <caret line="80" column="50" selection-start-line="80" selection-start-column="50" selection-end-line="80" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -677,8 +677,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/Party.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="61" column="10" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+        <state relative-caret-position="233">
+          <caret line="84" column="9" lean-forward="true" selection-start-line="82" selection-start-column="10" selection-end-line="84" selection-end-column="9" />
           <folding>
             <element signature="e#716#717#0" expanded="true" />
             <element signature="e#768#769#0" expanded="true" />
@@ -688,10 +688,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/models/PartyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="80" column="50" selection-start-line="80" selection-start-column="50" selection-end-line="80" selection-end-column="50" />
+        <state relative-caret-position="-442">
+          <caret line="29" column="65" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
